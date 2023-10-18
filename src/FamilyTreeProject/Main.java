@@ -1,7 +1,7 @@
 
 import Presenter.Presenter;
-import model.Service;
-import model.fileHandler.FileHandler;
+import Model.Service;
+import Model.fileHandler.FileHandler;
 import ui.Console;
 import ui.View;
 

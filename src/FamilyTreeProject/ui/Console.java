@@ -3,7 +3,7 @@ package ui;
 import java.util.Scanner;
 
 import Presenter.Presenter;
-import model.human.Gender;
+import Model.human.Gender;
 
 public class Console implements View{
     private static final String INPUT_ERROR = "Вы ввели неверное значение";

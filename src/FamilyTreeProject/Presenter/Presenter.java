@@ -1,7 +1,7 @@
 package Presenter;
 
-import model.Service;
-import model.human.Gender;
+import Model.Service;
+import Model.human.Gender;
 import ui.View;
 
 public class Presenter {

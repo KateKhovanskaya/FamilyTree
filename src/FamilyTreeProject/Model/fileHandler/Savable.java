@@ -1,8 +1,8 @@
-package model.fileHandler;
+package Model.fileHandler;
 import java.io.Serializable;
 
-import model.familyTree.FamilyTree;
-import model.human.FamilyTreeObject;
+import Model.familyTree.FamilyTree;
+import Model.human.FamilyTreeObject;
 
 public interface Savable {
     public boolean save(Serializable serializable, String path);

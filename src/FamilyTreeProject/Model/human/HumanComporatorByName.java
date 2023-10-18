@@ -1,4 +1,4 @@
-package model.human;
+package Model.human;
 import java.util.Comparator;
 
 public class HumanComporatorByName<T extends FamilyTreeObject> implements Comparator<T>{

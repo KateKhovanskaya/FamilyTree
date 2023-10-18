@@ -1,4 +1,4 @@
-package model.fileHandler;
+package Model.fileHandler;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -6,8 +6,8 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
-import model.familyTree.FamilyTree;
-import model.human.FamilyTreeObject;
+import Model.familyTree.FamilyTree;
+import Model.human.FamilyTreeObject;
 
 public class FileHandler implements Savable{
 

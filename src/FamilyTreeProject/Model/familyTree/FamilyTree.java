@@ -1,14 +1,14 @@
-package model.familyTree;
+package Model.familyTree;
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import model.human.FamilyTreeObject;
-import model.human.Human;
-import model.human.HumanComporatorByAge;
-import model.human.HumanComporatorByName;
+import Model.human.FamilyTreeObject;
+import Model.human.Human;
+import Model.human.HumanComporatorByAge;
+import Model.human.HumanComporatorByName;
 
 public class FamilyTree<E extends FamilyTreeObject> implements Serializable, Iterable<E>{
     

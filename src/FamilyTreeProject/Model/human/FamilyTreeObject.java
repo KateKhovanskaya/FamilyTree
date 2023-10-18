@@ -1,4 +1,4 @@
-package model.human;
+package Model.human;
 
 import java.util.Calendar;
 

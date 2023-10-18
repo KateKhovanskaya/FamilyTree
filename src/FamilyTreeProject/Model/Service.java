@@ -1,13 +1,13 @@
-package model;
+package Model;
 import java.io.Serializable;
 import java.util.List;
 
-import model.familyTree.FamilyTree;
-import model.fileHandler.FileHandler;
-import model.fileHandler.Savable;
-import model.human.FamilyTreeObject;
-import model.human.Gender;
-import model.human.Human;
+import Model.familyTree.FamilyTree;
+import Model.fileHandler.FileHandler;
+import Model.fileHandler.Savable;
+import Model.human.FamilyTreeObject;
+import Model.human.Gender;
+import Model.human.Human;
 
 public class Service {
     private FamilyTree<Human> familyTree;
